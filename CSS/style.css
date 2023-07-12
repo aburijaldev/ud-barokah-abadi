@@ -22,6 +22,9 @@ body {
   /* min-height: 4000px; */
 }
 /* Navbar */
+style img {
+  background-size: 40%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -74,6 +77,9 @@ body {
 
 #hamburger-menu {
   display: none;
+}
+.navbar .button img {
+  background-size: 40px;
 }
 /* Hero Section */
 .hero {
