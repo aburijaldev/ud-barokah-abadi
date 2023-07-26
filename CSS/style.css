@@ -2,7 +2,6 @@
   --primary: #b6895b;
   --bg: #010101;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -14,19 +13,18 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
 }
-/* Navbar */
+/* Navbar Section start*/
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: rgba(1, 1, 1, 0.8);
+  background-color: rgba(1, 1, 1, 0.9);
   border-bottom: 1px solid #76583a;
   position: fixed;
   top: 0;
@@ -70,22 +68,45 @@ body {
 .navbar .navbar-extra a:hover {
   color: var(--primary);
 }
-
 #hamburger-menu {
   display: none;
 }
-style a {
-  font-size: 2rem;
+.navbar .widget {
+  height: 3rem;
+  width: 15rem;
+  background-color: #0db821;
+  bottom: 10vh;
+  border-radius: 1rem;
+  position: fixed;
+  right: 10%;
+  cursor: pointer;
 }
-/* Hero Section */
+.navbar .widget a {
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  font-weight: 500;
+  justify-content: center;
+}
+.navbar .widget .icon-wa {
+  padding: 0.2rem;
+  width: 15%;
+}
+/* Navbar Section end */
+
+/* Hero Section start*/
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero1.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: cover;
+  object-fit: cover;
 }
 .hero::after {
   content: "";
@@ -110,9 +131,6 @@ style a {
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
 }
-/* .hero .content h1 span{
-  color: var(--primary);
-} */
 .hero .content p {
   font-size: 1.15rem;
   margin-top: 1rem;
@@ -123,7 +141,9 @@ style a {
   border-radius: 15px;
   /* mix-blend-mode: difference; */
 }
-/* about section */
+/* Hero Section end */
+
+/* About section start*/
 .about,
 .Produk,
 .contact {
@@ -149,6 +169,7 @@ style a {
 }
 .about .row .about-img img {
   width: 95%;
+  border-radius: 1rem;
 }
 .about .row .content {
   flex: 1 1 35rem;
@@ -165,8 +186,9 @@ style a {
   list-style: none;
   line-height: 2.1rem;
 }
+/* About Section end */
 
-/* Layanan kami */
+/* Layanan Kami start*/
 .Produk h2 {
   margin-bottom: 1rem;
 }
@@ -199,6 +221,69 @@ style a {
   font-size: 1rem;
   margin-left: 30px;
 }
+/* Layanan Kami end */
+
+/* Galeri Section start*/
+.galeri,
+.artikel {
+  padding: 8rem 7% 1.4rem;
+  margin-top: 8rem;
+}
+.galeri h2,
+.artikel h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.galeri h2 span,
+.artikel h2 span {
+  color: #b6895b;
+}
+.galeri .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 7%;
+  justify-content: center;
+  align-items: center;
+}
+.galeri .row img {
+  margin: 0.5rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+/* Galeri Section end */
+
+/* Artikel Section start */
+.artikel .row {
+  display: flex;
+  padding: 1% 2%;
+}
+.artikel .row .artikelkami {
+  width: 80%;
+}
+.artikel .row .artikelkami img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.artikel .row .content-artikel {
+  padding: 1% 2%;
+  line-height: 1.7rem;
+}
+.artikel .row .content-artikel h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.artikel .row .content-artikel .p1 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+.artikel .row .content-artikel .p2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* Artikel Section end */
 
 /* Kontak Section */
 .contact .row {
@@ -210,6 +295,7 @@ style a {
 .contact .row .map {
   flex-wrap: wrap;
   width: 100%;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 .contact .row p {
@@ -239,7 +325,6 @@ style a {
 }
 .contact .row .ul-akun .li-akun img {
   width: 2.5%;
-  color: var(--primary);
 }
 .contact .row .akun-sosmed .ul-akun .li-akun {
   font-size: 0.5rem;
@@ -348,6 +433,12 @@ footer .credit a {
   }
   .contact .row form {
     padding: 0.2rem;
+  }
+  .galeri .row {
+    padding: 2rem 0%;
+  }
+  .artikel .row {
+    flex-wrap: wrap;
   }
 }
 /* Mobile Phone */
