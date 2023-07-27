@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding: 1.4rem 5%;
   background-color: rgba(1, 1, 1, 0.9);
   border-bottom: 1px solid #76583a;
   position: fixed;
@@ -75,7 +75,7 @@ body {
   height: 3rem;
   width: 15rem;
   background-color: #0db821;
-  bottom: 10vh;
+  bottom: 8vh;
   border-radius: 1rem;
   position: fixed;
   right: 10%;
@@ -103,16 +103,17 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/hero1.jpg");
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
+  background-position: center;
 }
 .hero::after {
   content: "";
   display: block;
   position: absolute;
   width: 100%;
+  margin-top: 2%;
   height: 100%;
   background: linear-gradient(
     0deg,
@@ -121,8 +122,8 @@ body {
   );
 }
 .hero .content {
-  padding: 1.4rem 7%;
-  max-width: 60rem;
+  padding: 1.4rem 2%;
+  max-width: 50rem;
 }
 .hero .content h1 {
   font-size: 2.2rem;
@@ -147,7 +148,7 @@ body {
 .about,
 .Produk,
 .contact {
-  padding: 7rem 7% 1.4rem;
+  padding: 7rem 3% 1.4rem;
 }
 .about h2,
 .Produk h2,
@@ -195,7 +196,7 @@ body {
 .Produk p,
 .contact p {
   text-align: center;
-  max-width: 60rem;
+  max-width: 50rem;
   margin: auto;
   font-weight: 300;
   line-height: 2.1rem;
@@ -207,19 +208,19 @@ body {
   justify-content: center;
 }
 .Produk .row .barang {
-  text-align: center;
   padding-bottom: 2rem;
-  margin: 0 3.5% 0;
+  padding: 0 1% 2rem;
 }
 .Produk .row .barang img {
-  border-radius: 30%;
-  width: 110%;
-  margin-bottom: 0.6rem;
+  border-radius: 2rem;
+  width: 250px;
+  height: 175px;
+  margin-bottom: 0.8rem;
 }
 .Produk .row .barang .judul-barang {
   margin-top: 1rem auto 0.5rem;
   font-size: 1rem;
-  margin-left: 30px;
+  text-align: center;
 }
 /* Layanan Kami end */
 
@@ -247,7 +248,10 @@ body {
   align-items: center;
 }
 .galeri .row img {
+  cursor: pointer;
   margin: 0.5rem;
+  height: 250px;
+  width: 250px;
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -295,11 +299,12 @@ body {
 .contact .row .map {
   flex-wrap: wrap;
   width: 100%;
+  height: 300px;
   border-radius: 0.5rem;
   object-fit: cover;
 }
 .contact .row p {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   align-items: center;
 }
@@ -308,6 +313,7 @@ body {
 }
 .contact .row .akun-sosmed {
   margin-top: 2%;
+  margin-bottom: 4rem;
   height: 100%;
   width: 100%;
 }
@@ -320,15 +326,15 @@ body {
 .contact .row .li-akun {
   list-style-type: none;
   margin-left: 5rem;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 1%;
 }
 .contact .row .ul-akun .li-akun img {
   width: 2.5%;
 }
 .contact .row .akun-sosmed .ul-akun .li-akun {
-  font-size: 0.5rem;
-  margin-left: 20%;
+  font-size: 1rem;
+  margin-left: 15%;
   vertical-align: center;
 }
 
@@ -344,7 +350,7 @@ footer .socials {
 }
 footer .socials a {
   color: #fff;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 footer .socials a:hover,
 footer .links a:hover {
@@ -355,7 +361,7 @@ footer .links {
 }
 footer .links a {
   color: #fff;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.5rem;
 }
 footer .credit {
   font-size: 0.9rem;
