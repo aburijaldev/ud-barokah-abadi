@@ -330,7 +330,7 @@ body {
   margin-bottom: 1%;
 }
 .contact .row .ul-akun .li-akun img {
-  width: 4%;
+  width: 5%;
 }
 .contact .row .akun-sosmed .ul-akun .li-akun {
   font-size: 1rem;
@@ -445,6 +445,9 @@ footer .credit a {
   }
   .artikel .row {
     flex-wrap: wrap;
+  }
+  .contact .row .ul-akun .li-akun img {
+    width: 6%;
   }
 }
 /* Mobile Phone */
