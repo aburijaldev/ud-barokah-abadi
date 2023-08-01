@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.udbarokahbadi.my.id/sitemap.xml
+Sitemap: https://www.udbarokahabadi.my.id/sitemap.xml
