@@ -287,40 +287,37 @@ body {
   border-radius: 0.5rem;
   object-fit: cover;
 }
-.contact .row p {
-  font-size: 2rem;
-  font-weight: 700;
-  align-items: center;
-}
-.contact .row p span {
-  color: var(--primary);
-}
 .contact .row .akun-sosmed {
-  margin-top: 2%;
-  margin-bottom: 4rem;
-  height: 100%;
+  padding: 1rem 2%;
+  min-height: 250px;
   width: 100%;
 }
-.ul-akun {
-  height: 100%;
-  text-align: left;
-  justify-content: center;
+.contact .row h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.contact .row h3 span {
+  color: var(--primary);
+}
+.contact .row .ul-akun {
+  min-height: 50px;
+  width: 100%;
+  display: flex;
   align-items: center;
 }
-.contact .row .li-akun {
-  list-style-type: none;
-  margin-left: 5rem;
-  margin-top: 2%;
-  margin-bottom: 1%;
-}
-.contact .row .ul-akun .li-akun img {
+.contact .row .ul-akun img {
   width: 35px;
   height: 35px;
 }
-.contact .row .akun-sosmed .ul-akun .li-akun {
-  font-size: 1rem;
-  margin-left: 15%;
-  vertical-align: center;
+.contact .row .ul-akun p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 2%;
+  letter-spacing: 2px;
+}
+.contact .ul-akun .no1 {
+  margin-left: 0%;
 }
 /* Footer */
 footer {
