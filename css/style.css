@@ -242,36 +242,6 @@ body {
   border-radius: 2rem;
   object-fit: cover;
 }
-/* Artikel Section start */
-.artikel .row {
-  display: flex;
-  padding: 1% 2%;
-}
-.artikel .row .artikelkami {
-  width: 80%;
-}
-.artikel .row .artikelkami img {
-  border-radius: 1rem;
-  width: 400px;
-  height: 225px;
-}
-.artikel .row .content-artikel {
-  padding: 1% 2%;
-  line-height: 1.7rem;
-}
-.artikel .row .content-artikel h3 {
-  font-size: 1.6rem;
-  font-weight: 500;
-}
-.artikel .row .content-artikel .p1 {
-  font-size: 0.8rem;
-  font-weight: 300;
-  padding-bottom: 1.5rem;
-}
-.artikel .row .content-artikel .p2 {
-  font-size: 1rem;
-  font-weight: 300;
-}
 /* Kontak Section */
 .contact .row {
   display: flex;
