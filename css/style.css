@@ -303,7 +303,6 @@ body {
   min-height: 50px;
   width: 100%;
   display: flex;
-  border: 2px solid #0db821;
   align-items: center;
 }
 .contact .row .ul-akun img {
@@ -417,7 +416,7 @@ footer .credit p {
   .galeri .row {
     padding: 2rem 0%;
   }
-  .contact .row .ul-akun .li-akun img {
+  .contact .row .ul-akun img {
     width: 35px;
     height: 35px;
   }
