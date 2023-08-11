@@ -89,9 +89,8 @@ body {
   justify-content: center;
 }
 .navbar .widget img {
-  padding: 0.2rem;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .navbar .widget p {
   font-size: 1.3rem;
@@ -294,6 +293,7 @@ body {
 }
 .contact .row h3 {
   font-size: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 .contact .row h3 span {
@@ -303,22 +303,20 @@ body {
   min-height: 50px;
   width: 100%;
   display: flex;
+  border: 2px solid #0db821;
   align-items: center;
 }
 .contact .row .ul-akun img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 .contact .row .ul-akun p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  text-align: left;
   margin-left: 2%;
-  letter-spacing: 2px;
+  text-align: left;
 }
-.contact .ul-akun .no1 {
-  margin-left: 0%;
-}
+
 /* Footer */
 footer {
   background-color: var(--primary);
